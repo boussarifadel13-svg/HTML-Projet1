@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet html1</title>
+</head>
+
+<body>
+    <hr>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#a-propos">À propos</a></li>
+                <li><a href="#realisations">Réalisations</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Bienvenue sur mon site web</h1>
+        <section id="accueil">
+            <h2>Accueil</h2>
+            <p>Bienvenue sur mon site web ! Je suis Fadel Boussari, un passionné de développement web. Sur ce site, vous trouverez des informations sur moi, mes réalisations, mon CV et comment me contacter.</p>
+        </section>
+        <section id="a-propos">
+            <h2>À propos</h2>
+            <p>Je suis Fadel Boussari, un passionné de développement web et du trading. Je suis spécialisé dans la création de sites web modernes et de l'analyse des marchés financiérs.</p>
+            <video controls width="400">
+                <source src="media/presentation.mp4" type="video/mp4">
+                votre navigateur ne prend pas en charge cette video.
+            </video>
+        </section>
+        <section id="realisations">
+            <h2>Réalisations</h2>
+            <p>Voici quelques-unes de mes réalisations :</p>
+            <ul>
+                <li>Site web pour une entreprise de services</li>
+                <li>Application web de gestion de tâches</li>
+                <li>Site e-commerce pour un vendeur en ligne</li>
+            </ul>
+        </section>
+        <section id="cv">
+            <h2>CV</h2>
+            <p>Voici mon curriculum vitae :</p>
+            <p><strong>Expérience professionnelle :</strong></p>
+            <ul>
+                <li>Développeur web chez Gomycode CI. (2026)</li>
+                <li>Stagiaire chez Atlantique assurance (2023)</li>
+                <li>Agent d'assurance chez Coris Assurance (présent)</li>
+            </ul>
+            <p><strong>Parcours académique :</strong></p>
+            <ul>
+                <li>BAC (2021)</li>
+                <li>BEPC(2018)</li>
+                <li>Certificat d'étude primaire (2014)</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Pour me contacter, vous pouvez utiliser le formulaire ci-dessous ou m'envoyer un email à <a href="mailto:boussarifadel13@gmail.com">
+                boussarifadel13@gmail.com</a>.</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Nom et prénom :</label><input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message"></textarea><br><br>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 Mon Projet HTML.by Fadel Boussari .Tous droits réservés.</p>
+    </footer>
+</body>
