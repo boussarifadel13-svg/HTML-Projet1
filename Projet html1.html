@@ -5,21 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet html1</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <hr>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#a-propos">À propos</a></li>
-                <li><a href="#realisations">Réalisations</a></li>
-                <li><a href="#cv">CV</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+   <header class="header">
+    <nav class="navbar">
+
+        <a href="#accueil" class="logo">
+            FA<span>.</span>
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#a-propos">À propos</a></li>
+            <li><a href="#realisations">Réalisations</a></li>
+            <li><a href="#cv">Mon CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a href="#contact" class="nav-button">Me contacter ↗</a>
+
+    </nav>
+</header>
     <main>
         <h1>Bienvenue sur mon site web</h1>
         <section id="accueil">
@@ -29,7 +38,7 @@
         <section id="a-propos">
             <h2>À propos</h2>
             <p>Je suis Fadel Boussari, un passionné de développement web et du trading. Je suis spécialisé dans la création de sites web modernes et de l'analyse des marchés financiérs.</p>
-            <video controls width="400">
+            <video controls width="400" id="video">
                 <source src="media/presentation.mp4" type="video/mp4">
                 votre navigateur ne prend pas en charge cette video.
             </video>
@@ -73,7 +82,20 @@
             </form>
         </section>
     </main>
-    <footer>
-        <p>© 2026 Mon Projet HTML.by Fadel Boussari .Tous droits réservés.</p>
-    </footer>
+   <footer class="footer">
+    <div class="footer-container">
+
+        <p class="copyright">
+            © 2025 MonSite. Tous droits réservés.by Fadel Boussari
+        </p>
+
+        <div class="social-links">
+            <a href="#">f</a>
+            <a href="#">♥</a>
+            <a href="#">in</a>
+            <a href="#">▶</a>
+        </div>
+
+    </div>
+</footer>
 </body>
